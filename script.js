@@ -35,7 +35,7 @@ btnsubmit.addEventListener("click", function () {
 input.addEventListener(
   "keydown",
   function (e) {
-    if (e.key == "Enter") {
+    if (e.key == "Enter the value") {
       if (input.value !== "") {
         getUserData(url + input.value);
       }
